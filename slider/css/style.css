@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  border: solid 1px black;
+}
+
+.my__slider {
+  position: relative;
+}
+
+.swiper {
+  overflow: hidden; /*чтобы только по 3 показывать*/
+}
+
+.my-slider__slide {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-around;
+}
+
+.swiper-wrapper {
+  display: inline-flex;
+}
+
+.my-slider-btn {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: url("../ic_arrow.svg") left 30px center no-repeat;
+  border: 1px solid yellow;
+}
+
+.my-slider-prev {
+  position: absolute;
+  left: -130px;
+  transform: rotate(180deg);
+}
+
+.my-slider-next {
+  position: absolute;
+  right: -130px;
+}/*# sourceMappingURL=style.css.map */
