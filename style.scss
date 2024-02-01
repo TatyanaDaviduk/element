@@ -1,0 +1,37 @@
+@font-face {
+    font-family: '';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/.woff') format('woff'), url('../fonts/.woff2') format('woff2');
+}
+
+$color: #;
+
+
+
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+ul,
+li{
+    margin: 0;padding: 0;
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+
