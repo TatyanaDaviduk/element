@@ -1,0 +1,28 @@
+.wrapper {
+  width: 880px;
+  margin: 0 auto;
+}
+
+.tabs-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.tabs-nav__item {
+  padding: 20px;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  flex: 1;
+}
+
+.is-active {
+  border-color: aquamarine;
+}
+
+.tab {
+  display: none;
+  padding: 20px;
+}
+
+.tab.is-active {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

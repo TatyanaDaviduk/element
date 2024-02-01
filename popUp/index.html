@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button type="button" class="btn--dialog">Открыть диалоговое окно</button>
+        <button type="button" class="btn--modal">Открыть модальное окно</button>
+        <dialog id="myDialog" class="mydialog">Я диалоговое окно
+            <button type="button" class="btn--close">Закрыть</button>
+        </dialog>
+        <dialog id="myModal" class="mydialog">
+            <div class="dialog__inner">
+                Я модальное окно
+                <button type="button" class="modal__btn--close">Закрыть</button>
+            </div>
+        </dialog>
+
+        <div id="okno">
+            Всплывающее окошко!
+            <a href="#" class="close">Закрыть окно</a>
+        </div>
+        <a href="#okno">Вызвать всплывающее окно</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

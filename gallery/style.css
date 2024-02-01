@@ -1,0 +1,56 @@
+body{
+    
+}
+.slider{
+    background-color: black;
+    max-width: 800px;
+    margin:  0px 20px;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s;
+}
+.slider__line{
+    display: flex;
+    align-items: center;
+}
+.slider__btn-prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%) rotate(180deg);
+    left: 1%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.slider__btn-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    right: 1%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.slider__img{
+
+}
+.slider__dot{
+    width: 16px;
+    height: 16px;
+    border: 1px solid green;
+}
+.slider__dot:hover{
+    background-color: aquamarine;
+}
+.active-dot{
+    background-color: aquamarine;
+}
+.slider__wrapper{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(50%);
+}
